@@ -1,0 +1,253 @@
+html
+{
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body
+{
+    margin: 0;
+}
+
+*, *::after, *::before
+{
+    box-sizing: inherit;
+}
+
+.header1
+{
+    background-color: #C8A35F;
+    height: 45px;
+}
+
+.header1-content
+{
+    margin: 0 auto;
+    max-width: 1480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header1-clickable
+{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: transparent;
+    border: none;
+}
+
+.header2
+{
+    background-color: #2F343A;
+    height: 100px;
+    padding-top: 27px;
+}
+
+.header2-content
+{
+    margin: 0 auto;
+    max-width: 1480px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header2-clickable
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.logo
+{
+    width: 70px;
+}
+
+.header2-buttons
+{
+    display: flex;
+    box-sizing: border-box;
+    gap: 30px;
+}
+
+.main-text
+{
+    height: 620px;
+    background-image: url(background-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-div
+{
+    border: #C8A35F solid 1px;
+    width: 50%;
+    padding: 45px;
+}
+
+.main-text1
+{
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.main-text2
+{
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.truck-choose
+{
+    background-color: rgba(47, 52, 58, 0.75);
+    height: 561px;
+    background: linear-gradient(90deg, rgba(47, 52, 58, 0.95) 0% 35%, rgba(47, 52, 58, 1) 35% 65%, rgba(47, 52, 58, 0.95) 65% 100%);
+    display: flex;
+    align-items: center;
+}
+
+.text-buttons
+{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1150px;
+    align-items: center;
+}
+
+.europe-trucking
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.europe-trucking-h2
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.europe-trucking-h3
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+
+.europe-trucking-button
+{
+    background-color: #C8A35F;
+    color: white;
+    width: 220px;
+    height: 55px;
+    text-align: center;
+    font-family: Roboto, sans-serif;;
+}
+
+.europe-trucking-square
+{
+    background-color: #C8A35F;
+    width: 90px;
+    height: 6px;
+}  
+
+.truck-next
+{
+    display: flex;
+}
+
+.truck-picture
+{
+    display: block;
+}
+
+.next-back
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #C8A35F;
+}
+
+.next-back-button
+{
+    margin: 10px;
+}
+
+.all-services
+{
+    height: 744px;
+    margin: 0 auto;
+    background-color: #2F343A;
+    display: flex;
+    align-items: center;
+}
+
+.services-flex
+{
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    height: 504px;
+    gap: 50px;
+}   
+
+.services-h2
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    gap: 50px;
+}
