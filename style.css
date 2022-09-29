@@ -39,6 +39,12 @@ body
     line-height: 14px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
+}
+
+.header1-clickable:hover
+{
+    text-decoration: underline;
 }
 
 .header2
@@ -69,24 +75,49 @@ body
     color: white;
     background-color: transparent;
     border: none;
+    cursor: pointer;
+}
+
+.header2-clickable:hover
+{
+    text-decoration: underline;
 }
 
 .logo
 {
-    width: 70px;
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: white;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo-stick
+{
+    width: 46px;
+    height: 0px;
+    border: 1px solid #F2F2F2;
+    transform: rotate(90deg);
 }
 
 .header2-buttons
 {
     display: flex;
-    box-sizing: border-box;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 .main-text
 {
     height: 620px;
-    background-image: url(background-1.png);
+    background-image: url(./sources/pictures/background-1.png);
     background-size: cover;
     background-position: 50% 50%;
     display: flex;
@@ -139,8 +170,9 @@ body
 {
     display: flex;
     margin: 0 auto;
-    max-width: 1150px;
+    max-width: 1700px;
     align-items: center;
+    gap: 70px;
 }
 
 .europe-trucking
@@ -179,7 +211,14 @@ body
     width: 220px;
     height: 55px;
     text-align: center;
-    font-family: Roboto, sans-serif;;
+    font-family: Roboto, sans-serif;
+    border: none;
+}
+
+.europe-trucking-button:hover
+{
+    background-color: #f7c976;
+    color: black;
 }
 
 .europe-trucking-square
@@ -222,11 +261,11 @@ body
 
 .all-services
 {
-    height: 744px;
     margin: 0 auto;
     background-color: #2F343A;
     display: flex;
     align-items: center;
+    padding: 120px 0;
 }
 
 .services-flex
@@ -234,7 +273,6 @@ body
     display: flex;
     margin: 0 auto;
     width: 60%;
-    height: 504px;
     gap: 20px;
     flex-direction: column;
     
@@ -296,7 +334,7 @@ body
 .about
 {
     background-color: rgba(47, 52, 58, 0.75);
-    height: 561px;
+    padding: 120px 0;
     background: linear-gradient(90deg, rgba(47, 52, 58, 1) 0% 35%, rgba(47, 52, 58, 0.95) 35% 65%, rgba(47, 52, 58, 1) 65% 100%);
     display: flex;
     align-items: center;
@@ -315,6 +353,12 @@ body
 .advantage
 {
     display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    max-width: 700px;
 }
 
 .adv-text
@@ -330,33 +374,104 @@ body
 
 .adv-h2
 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 75px;
-    text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
 }
 
 .adv-h4
 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
     letter-spacing: 0.05em;
 }
 
 .adv-p
 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    text-align: center;
+}
+
+.adv-pic1
+{
+    width: 200px;
+    height: 160px;
+    background-image: url(sources/pictures/rectangle-1.png);
+    background-size: cover;
+}
+
+.adv-pic2
+{
+    width: 200px;
+    height: 160px;
+    background-image: url(sources/pictures/rectangle-3.jpg);
+    background-size: cover;
+}
+
+.adv-pic3
+{
+    width: 200px;
+    height: 160px;
+    background-image: url(sources/pictures/rectangle-2.png);
+    background-size: cover;
+}
+
+.adv-img
+{
+    background-size: cover;
+}
+
+.about-text 
+{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1700px;
+    align-items: center;
+    gap: 60px;
+}
+
+.botton-header
+{
+    height: 161px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #C8A35F;
+}
+
+.bottom-content
+{
+    margin: 0 auto;
+    max-width: 1480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+
+@media (max-width: 1000px)
+{
+    .truck-next
+    {
+        display: none;
+    }
+
+    .about-text
+    {
+        flex-direction: column;
+    }
+
+    .text-div
+    {
+        width: 100%;
+    }
 }
