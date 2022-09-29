@@ -235,7 +235,9 @@ body
     margin: 0 auto;
     width: 60%;
     height: 504px;
-    gap: 50px;
+    gap: 20px;
+    flex-direction: column;
+    
 }   
 
 .services-h2
@@ -250,4 +252,111 @@ body
     color: white;
     display: flex;
     gap: 50px;
+}
+
+.services-ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.services-avia
+{
+    background-color: rgb(57, 62, 68);
+    color: white;
+    width: 276px;
+    height: 180px;
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.services-avia:hover
+{
+    background-color: #C8A35F;
+    cursor: pointer;
+    width: 270px;
+    height: 174px;
+    margin: 3px;
+}
+
+.about
+{
+    background-color: rgba(47, 52, 58, 0.75);
+    height: 561px;
+    background: linear-gradient(90deg, rgba(47, 52, 58, 1) 0% 35%, rgba(47, 52, 58, 0.95) 35% 65%, rgba(47, 52, 58, 1) 65% 100%);
+    display: flex;
+    align-items: center;
+}
+
+.about-p
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: white;
+}
+
+.advantage
+{
+    display: flex;
+}
+
+.adv-text
+{
+    width: 200px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.adv-h2
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.adv-h4
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.adv-p
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
 }
